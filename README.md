@@ -46,6 +46,9 @@ LLM_TRAIN_MODE=finetune python main.py
 5. Put the larger, license-appropriate corpus in the Drive dataset directory.
 6. Run pretraining, then conversation fine-tuning.
 
+See [COLAB_TRAINING_GUIDE.md](COLAB_TRAINING_GUIDE.md) for the complete setup,
+dataset, licensing, loading, smoke-test, resume, and LoRA procedure.
+
 Checkpoints are written atomically every 100 steps. The notebook stores them
 under `My Drive/my-llm/checkpoints`, so a disconnected Colab runtime can resume
 from the latest checkpoint. Use `--no-resume` only when deliberately starting
