@@ -1,0 +1,1 @@
+- [Git LFS checkpoint scope](git-lfs-checkpoint-scope.md) — keep LFS rules scoped to new checkpoint paths so existing binary checkpoints are not rewritten as pointers.

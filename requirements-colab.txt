@@ -1,0 +1,6 @@
+# Google Colab already includes PyTorch and CUDA. Install this file after
+# selecting a GPU runtime; do not replace Colab's torch build unnecessarily.
+tiktoken>=0.7.0
+datasets>=2.20.0
+requests>=2.31.0
+flask>=3.0.0

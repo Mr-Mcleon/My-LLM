@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "DpByNBm7fKqSlpReCBXDp"
+uri = "file://screenshots/current-chat.png"
+type = "image"
+title = "Current LLM Chat Interface"
